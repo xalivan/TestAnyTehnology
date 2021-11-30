@@ -31,3 +31,12 @@ build/
 
 ### VS Code ###
 .vscode/
+#DROP
+#.gitignore
+.mvn
+mvnw
+mvnw.cmd
+**/test
+
+#README.m
+#README.md

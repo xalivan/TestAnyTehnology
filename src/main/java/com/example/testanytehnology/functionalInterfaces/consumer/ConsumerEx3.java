@@ -7,7 +7,7 @@ public class ConsumerEx3 {
 
     public static void main(String[] args) {
 
-       List<String> words = List.of("falcon", "wood", "rock", "forest",
+        List<String> words = List.of("falcon", "wood", "rock", "forest",
                 "river", "water");
 
         words.forEach(new Consumer<String>() {
