@@ -3,6 +3,7 @@ package com.example.testanytehnology.functionalInterfaces.consumer;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;
+import java.util.stream.Collectors;
 
 public class ConsumerEx4 {
 
@@ -24,5 +25,6 @@ public class ConsumerEx4 {
                 list.forEach(System.out::println);
 
         addTwo.andThen(showList).accept(vals);
+
     }
 }

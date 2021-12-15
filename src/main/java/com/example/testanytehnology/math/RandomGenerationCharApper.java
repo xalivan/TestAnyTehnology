@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class RandomGenerationCharApper {
     public static void main(String[] args) {
-        String generatedString = RandomStringUtils.randomAlphabetic(30);
+        String generatedString = RandomStringUtils.randomAlphanumeric(30);
 
         System.out.println(generatedString);
 
