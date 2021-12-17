@@ -1,10 +1,9 @@
 package com.example.testanytehnology.strim.model;
 
 
-import lombok.*;
-
-import java.util.Comparator;
-import java.util.Objects;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
 @Getter
 @Setter
@@ -19,11 +18,6 @@ public class User implements Comparable<User> {
     public int compareTo(User o) {
         return this.getAge().compareTo(o.getAge());
     }
-//
-//    @Override
-//    public int compare(User o1, User o2) {
-//        return o1.getAge().compareTo(o2.getAge());
-//    }
 
     public User(Integer id, String name, Integer age, Integer weight, String sex) {
         this.id = id;

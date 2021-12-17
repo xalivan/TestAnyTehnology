@@ -26,18 +26,5 @@ public class StreamTest {
         System.out.println("Сумма нечетных чисел "+integer3);
         Integer integer4 = collection.stream().filter(o -> o % 2 == 0).reduce(Integer::sum).orElse(0);
         System.out.println("Сумма четных чисел "+integer4);
-
-
-        User userAnn=new User(1, "Ann", 10, 20, "woman");
-        User userBob=new User(2, "Bon", 11, 21, "man");
-        User userSam=new User(3, "Sam", 14, 25, "man");
-        List<User>users=new ArrayList<>();
-        users.add(userAnn);
-        users.add(userBob);
-        users.add(userSam);
-        List<User> collect = users.stream().sorted(User::compareTo).collect(Collectors.toList());
-        System.out.println("sorted () implements Comparable<User> to getAge()"+collect);
-
-
     }
 }
