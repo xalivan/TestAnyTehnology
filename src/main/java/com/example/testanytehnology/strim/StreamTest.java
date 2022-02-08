@@ -1,11 +1,7 @@
 package com.example.testanytehnology.strim;
 
-import com.example.testanytehnology.strim.model.Developer;
-import com.example.testanytehnology.strim.model.User;
-
 import java.util.*;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class StreamTest {
     public static void main(String[] args) {
@@ -58,6 +54,11 @@ public class StreamTest {
         System.out.println("sum : " + sum4);
         int sum5 = Arrays.stream(numbers).reduce(100, (a, b) -> a / b);   // 0
         System.out.println("sum : " + sum5);
+        System.out.println();
+
+        List<String> listOfWords = Arrays.asList("acs", "sde", "cdk", "ams", "qe", "cdk");
+        listOfWords.stream().sorted(Comparator.reverseOrder()).distinct().forEach(System.out::println);
+        System.out.println();
 
     }
 }

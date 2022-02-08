@@ -1,5 +1,8 @@
 package com.example.testanytehnology.paterns.builder.model;
 
+import lombok.ToString;
+
+@ToString
 public class GPSNavigator {
     private String route;
 

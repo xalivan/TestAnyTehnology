@@ -1,5 +1,8 @@
 package com.example.testanytehnology.paterns.builder.model;
 
+import lombok.ToString;
+
+@ToString
 public class Car {
     private final CarType carType;
     private final int seats;

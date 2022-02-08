@@ -21,6 +21,7 @@ public class FlatMap {
                 .forEach(System.out::print);    // return a List
         System.out.println();
 
+
         Developer o1 = new Developer();
         o1.setName("mkyong");
         o1.addBook("Java 8 in Action");

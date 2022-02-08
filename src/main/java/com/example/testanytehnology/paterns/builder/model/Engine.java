@@ -1,5 +1,8 @@
 package com.example.testanytehnology.paterns.builder.model;
 
+import lombok.ToString;
+
+@ToString
 public class Engine {
     private final double volume;
     private double mileage;
