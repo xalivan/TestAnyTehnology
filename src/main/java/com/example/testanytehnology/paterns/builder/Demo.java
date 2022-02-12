@@ -16,7 +16,7 @@ public class Demo {
         // Готовый продукт возвращает строитель, так как Директор чаще всего не
         // знает и не зависит от конкретных классов строителей и продуктов.
         Car car = builder.getResult();
-        System.out.println("Car built:\n" + car.getCarType());
+        System.out.println("Car built:\n" + car.toString());
 
     }
 
