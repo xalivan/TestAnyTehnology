@@ -21,6 +21,7 @@ public class BufferedInputFile {
             sb.append(str).append("\n");
         }
         br.close();
+        System.out.println(sb);
         return sb.toString();
     }
 
