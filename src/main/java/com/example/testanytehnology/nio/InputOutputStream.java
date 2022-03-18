@@ -6,11 +6,11 @@ import java.io.FileOutputStream;
 public class InputOutputStream {
     public static void main(String[] args) throws Exception {
         //Создаем поток-чтения-байт-из-файла
-        FileInputStream inputStream = new FileInputStream("/home/volodymyr/IdeaProjects/TestAnyTehnology/src/main/java/com/example/testanytehnology/nio/text.txt");
+        FileInputStream inputStream = new FileInputStream("C:\\FATHER\\TestAnyTehnology\\src\\main\\java\\com\\example\\testanytehnology\\nio\\text.txt");
         // Создаем поток-записи-байт-в-файл
-        FileOutputStream outputStream = new FileOutputStream("/home/volodymyr/IdeaProjects/TestAnyTehnology/src/main/java/com/example/testanytehnology/nio/textOut.txt");
+        FileOutputStream outputStream = new FileOutputStream("C:\\FATHER\\TestAnyTehnology\\src\\main\\java\\com\\example\\testanytehnology\\nio\\textOUTVictor.txt");
 
-        byte[] buffer = new byte[1000];
+        byte[] buffer = new byte[1000000];
         while (inputStream.available() > 0) //пока есть еще непрочитанные байты
         {
             // прочитать очередной блок байт в переменную buffer и реальное количество в count

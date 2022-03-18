@@ -1,0 +1,60 @@
+#prop
+#Wed Mar 16 12:43:09 EET 2022
+
+-- listing properties --
+sun.desktop=windows
+awt.toolkit=sun.awt.windows.WToolkit
+java.specification.version=11
+sun.cpu.isalist=amd64
+sun.jnu.encoding=Cp1251
+java.class.path=C:\FATHER\TestAnyTehnology\target\cla...
+java.vm.vendor=Amazon.com Inc.
+sun.arch.data.model=64
+user.variant=
+java.vendor.url=https://aws.amazon.com/corretto/
+user.timezone=
+os.name=Windows 10
+java.vm.specification.version=11
+sun.java.launcher=SUN_STANDARD
+user.country=UA
+sun.boot.library.path=C:\Program Files\Amazon Corretto\jdk1...
+sun.java.command=com.example.testanytehnology.Properti...
+jdk.debug=release
+sun.cpu.endian=little
+user.home=C:\Users\gorno
+user.language=uk
+java.specification.vendor=Oracle Corporation
+java.version.date=2022-01-18
+java.home=C:\Program Files\Amazon Corretto\jdk1...
+file.separator=\
+java.vm.compressedOopsMode=32-bit
+line.separator=
+
+java.specification.name=Java Platform API Specification
+java.vm.specification.vendor=Oracle Corporation
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+user.script=
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.runtime.version=11.0.14+9-LTS
+user.name=gorno
+path.separator=;
+os.version=10.0
+java.runtime.name=OpenJDK Runtime Environment
+file.encoding=UTF-8
+java.vm.name=OpenJDK 64-Bit Server VM
+java.vendor.version=Corretto-11.0.14.9.1
+java.vendor.url.bug=https://github.com/corretto/corretto-...
+java.io.tmpdir=C:\Users\gorno\AppData\Local\Temp\
+java.version=11.0.14
+user.dir=C:\FATHER\TestAnyTehnology
+os.arch=amd64
+java.vm.specification.name=Java Virtual Machine Specification
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+sun.os.patch.level=
+java.library.path=C:\Program Files\Amazon Corretto\jdk1...
+java.vm.info=mixed mode
+java.vendor=Amazon.com Inc.
+java.vm.version=11.0.14+9-LTS
+sun.io.unicode.encoding=UnicodeLittle
+java.class.version=55.0
+

@@ -1,0 +1,6 @@
+Більше ста років тому назад закінчилась велика війна між людьми
+і підземними народами в результаті чого підземні народи були
+витіснені у віддаленні і незаселені місця.
+We can instantiate a stream, and have an accessible reference to it,
+as long as only intermediate operations are called.
+Executing a terminal operation makes a stream inaccessible.
